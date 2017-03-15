@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharp6
 {
@@ -10,6 +6,9 @@ namespace CSharp6
     {
         static void Main(string[] args)
         {
+            // string interpolation
+            StringInterpolate.Sample();
+            Console.Read();
         }
     }
 }
